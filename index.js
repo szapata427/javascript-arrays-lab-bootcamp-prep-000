@@ -21,3 +21,7 @@ function appendKitten(name) {
    newArray.push(name)
    return newArray
 }
+
+function prependKitten(name) {
+  
+}
