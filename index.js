@@ -33,3 +33,9 @@ function removeFirstKitten() {
    newArray.shift(name)
    return newArray
 }
+
+function prependKitten(name) {
+   var newArray = kittens.slice();
+   newArray.unshift(name)
+   return newArray
+}
